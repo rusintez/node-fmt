@@ -1,0 +1,26 @@
+{
+  "name": "fmt",
+  "version": "1.0.0",
+  "description": "Lean string formatting",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rusintez/fmt.git"
+  },
+  "keywords": [
+    "string",
+    "format"
+  ],
+  "author": "Vladimir Popov <rusintez@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rusintez/node-fmt/issues"
+  },
+  "homepage": "https://github.com/rusintez/node-fmt",
+  "devDependencies": {
+    "mocha": "2.2.5"
+  }
+}
