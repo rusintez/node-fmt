@@ -1,6 +1,6 @@
 {
   "name": "node-fmt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lean string formatting",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:rusintez/fmt.git"
+    "url": "git@github.com:rusintez/node-fmt.git"
   },
   "keywords": [
     "string",
