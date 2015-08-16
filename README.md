@@ -1,6 +1,6 @@
 # node-fmt
 
-Lean string formatting (taken from https://github.com/bevacqua/js#strings)
+Lean string formatting (optimisation of https://github.com/bevacqua/js#strings)
 
 ### Installation
     
@@ -21,6 +21,7 @@ console.log(fmt('Hello %s', 'world')); // 'Hello world'
     $ cd node-fmt
     $ npm install
     $ npm test
+    $ npm run perf
 
 ### TODO
 

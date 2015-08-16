@@ -1,10 +1,6 @@
 exports = module.exports = function format() {
-  var args = [].slice.call(arguments);
-  var initial = args.shift();
-
-  function replacer (text, replacement) {
-    return text.replace('%s', replacement);
-  }
-  
-  return args.reduce(replacer, initial);
+  var initial = arguments[0],
+      len = arguments.length;
+  for (var j = 1; j < len; j++) initial = initial.replace('%s', arguments[j]);
+  return initial;
 }
