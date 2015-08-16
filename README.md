@@ -17,10 +17,10 @@ console.log(fmt('Hello %s', 'world')); // 'Hello world'
 
 ### Development
 
-  $ git clone git@github.com:rusintez/node-fmt.git
-  $ cd node-fmt
-  $ npm install
-  $ npm test
+    $ git clone git@github.com:rusintez/node-fmt.git
+    $ cd node-fmt
+    $ npm install
+    $ npm test
 
 ### TODO
 
